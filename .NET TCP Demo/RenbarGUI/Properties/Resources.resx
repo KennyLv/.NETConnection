@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="client" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\client.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="en_us__About_Form_About_Form" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="en_us__About_Form_Label_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="en_us__About_Form_LinkLabel_Help" xml:space="preserve">
+    <value>View Release Note</value>
+  </data>
+  <data name="en_us__ChangeUser_Form_Button_OK" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="en_us__ChangeUser_Form_ChangeUser_Form" xml:space="preserve">
+    <value>Change User</value>
+  </data>
+  <data name="en_us__ChangeUser_Form_GroupBox_User" xml:space="preserve">
+    <value>User Info</value>
+  </data>
+  <data name="en_us__ChangeUser_Form_Label_Id" xml:space="preserve">
+    <value>User Id :</value>
+  </data>
+  <data name="en_us__ChangeUser_Form_Label_Pwd" xml:space="preserve">
+    <value>Password :</value>
+  </data>
+  <data name="en_us__ChangeUser_Form_Success_String" xml:space="preserve">
+    <value>Change user success！</value>
+  </data>
+  <data name="en_us__Console_Form_Button_Pause" xml:space="preserve">
+    <value>&amp;Pause</value>
+  </data>
+  <data name="en_us__Console_Form_Button_Pause_Resume" xml:space="preserve">
+    <value>&amp;Resume</value>
+  </data>
+  <data name="en_us__Console_Form_Console_Form" xml:space="preserve">
+    <value>Console Viewer</value>
+  </data>
+  <data name="en_us__Console_Form_GroupBox_Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="en_us__HistoryForm_Button_Close" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="en_us__HistoryForm_Button_ReSubmit" xml:space="preserve">
+    <value>&amp;Resubmit</value>
+  </data>
+  <data name="en_us__HistoryForm_HistoryForm" xml:space="preserve">
+    <value>History Record</value>
+  </data>
+  <data name="en_us__HistoryForm_ListView_History_FilePath" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="en_us__HistoryForm_ListView_History_Submit_Account" xml:space="preserve">
+    <value>Submit Account</value>
+  </data>
+  <data name="en_us__HistoryForm_ListView_History_Submit_Time" xml:space="preserve">
+    <value>Submit Time</value>
+  </data>
+  <data name="en_us__HistoryForm_Open_with_Notepad" xml:space="preserve">
+    <value>Open with Notepad</value>
+  </data>
+  <data name="en_us__HistoryForm_Resubmit_Path_Err" xml:space="preserve">
+    <value>System can't found renbar render file, please check path is correct !</value>
+  </data>
+  <data name="en_us__HistoryForm_Rules_Err" xml:space="preserve">
+    <value>this render file attribute has not correct !</value>
+  </data>
+  <data name="en_us__Job_Form_Button_Clear" xml:space="preserve">
+    <value>Cl&amp;ear</value>
+  </data>
+  <data name="en_us__Job_Form_Button_Load" xml:space="preserve">
+    <value>&amp;Load</value>
+  </data>
+  <data name="en_us__Job_Form_Button_Submit" xml:space="preserve">
+    <value>&amp;Submit</value>
+  </data>
+  <data name="en_us__Job_Form_CheckBox_Update_Only" xml:space="preserve">
+    <value>Update Files Only</value>
+  </data>
+  <data name="en_us__Job_Form_GroupBox_AB_Properties" xml:space="preserve">
+    <value>Alienbrain Properties</value>
+  </data>
+  <data name="en_us__Job_Form_GroupBox_Job_Properties" xml:space="preserve">
+    <value>Base Properties</value>
+  </data>
+  <data name="en_us__Job_Form_Job_Form" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="en_us__Job_Form_Label_AB_Name" xml:space="preserve">
+    <value>Project Name :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Command" xml:space="preserve">
+    <value>Command :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_End" xml:space="preserve">
+    <value>End :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_First_Pool" xml:space="preserve">
+    <value>First Pool :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Job_Name" xml:space="preserve">
+    <value>Job Name :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Job_Project" xml:space="preserve">
+    <value>Job Project :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Note" xml:space="preserve">
+    <value>Note :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Packet_Size" xml:space="preserve">
+    <value>Packet Size :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_AB_Path" xml:space="preserve">
+    <value>Node Path :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Priority" xml:space="preserve">
+    <value>Priority :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Second_Pool" xml:space="preserve">
+    <value>Second Pool :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Start" xml:space="preserve">
+    <value>Start :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Submit_Type" xml:space="preserve">
+    <value>Submit Type :</value>
+  </data>
+  <data name="en_us__Job_Form_Label_Wait_For" xml:space="preserve">
+    <value>Wait For :</value>
+  </data>
+  <data name="en_us__Job_Form_LinkLabel_Display_Hide" xml:space="preserve">
+    <value>Hide Alienbrain Properties</value>
+  </data>
+  <data name="en_us__Job_Form_LinkLabel_Display_Show" xml:space="preserve">
+    <value>Display Alienbrain Properties</value>
+  </data>
+  <data name="en_us___ParseFile_Multi_Err" xml:space="preserve">
+    <value>Can't read multi-job file, please use in command line.</value>
+  </data>
+  <data name="en_us__Job_Form_RadioButton_Client" xml:space="preserve">
+    <value>Launch One per Client</value>
+  </data>
+  <data name="en_us__Job_Form_RadioButton_Processor" xml:space="preserve">
+    <value>Launch One per Processor</value>
+  </data>
+  <data name="en_us__Job_Form_Submit_Err" xml:space="preserve">
+    <value>Can't submit the job, please contact IT dept !</value>
+  </data>
+  <data name="en_us__Main_Form_AddRemove_Machine_Err" xml:space="preserve">
+    <value>Can't add or remove {0} machine</value>
+  </data>
+  <data name="en_us__Main_Form_Click_ListView_Err" xml:space="preserve">
+    <value>You have not choose Item !</value>
+  </data>
+  <data name="en_us__Main_Form_Delete_ListView_Queue" xml:space="preserve">
+    <value>Confirm delete ?</value>
+  </data>
+  <data name="en_us__Main_Form_GroupBox_Host" xml:space="preserve">
+    <value>Host List</value>
+  </data>
+  <data name="en_us__Main_Form_GroupBox_Process" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="en_us__Main_Form_GroupBox_Queue" xml:space="preserve">
+    <value>Queuing</value>
+  </data>
+  <data name="en_us__Main_Form_Host_Add_Machine" xml:space="preserve">
+    <value>Add to Render Farm</value>
+  </data>
+  <data name="en_us__Main_Form_Host_Remove_Machine" xml:space="preserve">
+    <value>Remove From Render Farm</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Host_Host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Host_Id" xml:space="preserve">
+    <value>Host Id</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Host_Processors" xml:space="preserve">
+    <value>Processors</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Host_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Process_Elpased" xml:space="preserve">
+    <value>Elapsed Time</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Process_Frames" xml:space="preserve">
+    <value>Frames</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Process_Host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Process_Id" xml:space="preserve">
+    <value>Processing Id</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Process_Job" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_First_Pool" xml:space="preserve">
+    <value>First Pool</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Frames" xml:space="preserve">
+    <value>Frames</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Id" xml:space="preserve">
+    <value>Queue Id</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Job" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Progress" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Second_Pool" xml:space="preserve">
+    <value>Second Pool</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Submited_Time" xml:space="preserve">
+    <value>Submited Time</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Submited_User" xml:space="preserve">
+    <value>Submited User</value>
+  </data>
+  <data name="en_us__Main_Form_Main_Form_Closing_String" xml:space="preserve">
+    <value>Exit ?</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_About" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Queue" xml:space="preserve">
+    <value>&amp;Queue</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Queue_Exit" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Queue_Job" xml:space="preserve">
+    <value>&amp;Job</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Queue_Job_History" xml:space="preserve">
+    <value>&amp;History</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Queue_Job_Load" xml:space="preserve">
+    <value>&amp;Load</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Queue_Job_New" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings" xml:space="preserve">
+    <value>&amp;Settings</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_ChangeUser" xml:space="preserve">
+    <value>&amp;Change User</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_Enabled" xml:space="preserve">
+    <value>&amp;Enable Local Service</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_Lang" xml:space="preserve">
+    <value>&amp;Language</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_Lang_Cht" xml:space="preserve">
+    <value>Traditional Chinese</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_Lang_Eng" xml:space="preserve">
+    <value>English (United-State)</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_Minimize" xml:space="preserve">
+    <value>&amp;Hide When Minimzed</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_Network" xml:space="preserve">
+    <value>&amp;Renbar Server</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_PoolMgr" xml:space="preserve">
+    <value>&amp;Pool Management</value>
+  </data>
+  <data name="en_us__Main_Form_Menu_Settings_Record_Option" xml:space="preserve">
+    <value>&amp;Save Environment Settings</value>
+  </data>
+  <data name="en_us__Main_Form_Notify_Text_String" xml:space="preserve">
+    <value>View current execute status, please click here.</value>
+  </data>
+  <data name="en_us__Main_Form_Notify_Title_String" xml:space="preserve">
+    <value>Renbar background executing ..</value>
+  </data>
+  <data name="en_us__Main_Form_Proc_View_Output" xml:space="preserve">
+    <value>View Output</value>
+  </data>
+  <data name="en_us__Main_Form_Queue_Delete_Job" xml:space="preserve">
+    <value>Delete Job</value>
+  </data>
+  <data name="en_us__Main_Form_Queue_Update_Job" xml:space="preserve">
+    <value>Update Job</value>
+  </data>
+  <data name="en_us__Main_Form_Status_Label_User" xml:space="preserve">
+    <value>User :</value>
+  </data>
+  <data name="en_us__Main_Form_View_Console_Form_Err" xml:space="preserve">
+    <value>Can't view the current output !</value>
+  </data>
+  <data name="en_us__Net_Form_Button_AU" xml:space="preserve">
+    <value>&amp;Add / Update</value>
+  </data>
+  <data name="en_us__Net_Form_Button_Save" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="en_us__Net_Form_Label_Connect" xml:space="preserve">
+    <value>Connecting ..</value>
+  </data>
+  <data name="en_us__Net_Form_Label_Port" xml:space="preserve">
+    <value>Port :</value>
+  </data>
+  <data name="en_us__Net_Form_Label_Port_Help" xml:space="preserve">
+    <value>Connect port</value>
+  </data>
+  <data name="en_us__Net_Form_Label_Server" xml:space="preserve">
+    <value>Server Address :</value>
+  </data>
+  <data name="en_us__Net_Form_Label_Server_Help" xml:space="preserve">
+    <value>Server host name or ip address-(ex: hostserver, 123.234.10.1)</value>
+  </data>
+  <data name="en_us__Net_Form_Net_Form" xml:space="preserve">
+    <value>Renbar Server</value>
+  </data>
+  <data name="en_us__Net_Form_comboBox_Server_Error1_String" xml:space="preserve">
+    <value>Can't connect to remote server !</value>
+  </data>
+  <data name="en_us__Net_Form_comboBox_Server_String" xml:space="preserve">
+    <value>Connected success !</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Add_Member" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Add_Pool" xml:space="preserve">
+    <value>&amp;Add Pool</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Delete_Pool" xml:space="preserve">
+    <value>&amp;Delete Pool</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Delete_Pool_Confirm" xml:space="preserve">
+    <value>Warning ! The pool all member will be lost-Delete the pool ?</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Del_Member" xml:space="preserve">
+    <value>Remove Member</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Add_Pool_Complete" xml:space="preserve">
+    <value>Add pool Complete !</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Update_Pool" xml:space="preserve">
+    <value>&amp;Update Pool</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_CheckBox_Sharable" xml:space="preserve">
+    <value>Sharable</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_ComboBox_Pool_Name_Repate_Err" xml:space="preserve">
+    <value>The pool already exist in database, can't create it !</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_GroupBox_Pool_Controls" xml:space="preserve">
+    <value>Pool Controls</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_GroupBox_Pool_Groups" xml:space="preserve">
+    <value>Pool Management</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_GroupBox_Relation" xml:space="preserve">
+    <value>Pool Relation</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Label_Machine_List" xml:space="preserve">
+    <value>Machine List :</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Label_Member_List" xml:space="preserve">
+    <value>Member List :</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Label_Pool_Name" xml:space="preserve">
+    <value>Pool Name :</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_PoolMgr_Form" xml:space="preserve">
+    <value>Pool Management</value>
+  </data>
+  <data name="en_us__SubmitFile_Path_Err" xml:space="preserve">
+    <value>The command have one or more error.</value>
+  </data>
+  <data name="sofastudio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sofastudio.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zh_tw__About_Form_About_Form" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="zh_tw__About_Form_Label_Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="zh_tw__About_Form_LinkLabel_Help" xml:space="preserve">
+    <value>檢視此版本的說明資訊</value>
+  </data>
+  <data name="zh_tw__ChangeUser_Form_Button_OK" xml:space="preserve">
+    <value>確認(&amp;O)</value>
+  </data>
+  <data name="zh_tw__ChangeUser_Form_ChangeUser_Form" xml:space="preserve">
+    <value>切換使用者</value>
+  </data>
+  <data name="zh_tw__ChangeUser_Form_GroupBox_User" xml:space="preserve">
+    <value>使用者資訊</value>
+  </data>
+  <data name="zh_tw__ChangeUser_Form_Label_Id" xml:space="preserve">
+    <value>使用者帳號 :</value>
+  </data>
+  <data name="zh_tw__ChangeUser_Form_Label_Pwd" xml:space="preserve">
+    <value>密碼 :</value>
+  </data>
+  <data name="zh_tw__ChangeUser_Form_Success_String" xml:space="preserve">
+    <value>切換使用者成功！</value>
+  </data>
+  <data name="zh_tw__Console_Form_Button_Pause" xml:space="preserve">
+    <value>暫停(&amp;P)</value>
+  </data>
+  <data name="zh_tw__Console_Form_Button_Pause_Resume" xml:space="preserve">
+    <value>繼續(&amp;R)</value>
+  </data>
+  <data name="zh_tw__Console_Form_Console_Form" xml:space="preserve">
+    <value>主控台檢視器</value>
+  </data>
+  <data name="zh_tw__Console_Form_GroupBox_Output" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="zh_tw__HistoryForm_Button_Close" xml:space="preserve">
+    <value>關閉(&amp;C)</value>
+  </data>
+  <data name="zh_tw__HistoryForm_Button_ReSubmit" xml:space="preserve">
+    <value>重新送出(&amp;R)</value>
+  </data>
+  <data name="zh_tw__HistoryForm_HistoryForm" xml:space="preserve">
+    <value>歷程記錄</value>
+  </data>
+  <data name="zh_tw__HistoryForm_ListView_History_FilePath" xml:space="preserve">
+    <value>檔案路徑</value>
+  </data>
+  <data name="zh_tw__HistoryForm_ListView_History_Submit_Account" xml:space="preserve">
+    <value>送出使用者</value>
+  </data>
+  <data name="zh_tw__HistoryForm_ListView_History_Submit_Time" xml:space="preserve">
+    <value>送出時間</value>
+  </data>
+  <data name="zh_tw__HistoryForm_Open_with_Notepad" xml:space="preserve">
+    <value>使用記事本開啟</value>
+  </data>
+  <data name="zh_tw__HistoryForm_Resubmit_Path_Err" xml:space="preserve">
+    <value>系統找不到 Renbar Render 檔案，請確認路徑是否正確 !</value>
+  </data>
+  <data name="zh_tw__HistoryForm_Rules_Err" xml:space="preserve">
+    <value>此 render 檔案內容屬性不正確 !</value>
+  </data>
+  <data name="zh_tw__Job_Form_Button_Clear" xml:space="preserve">
+    <value>清除(&amp;R)</value>
+  </data>
+  <data name="zh_tw__Job_Form_Button_Load" xml:space="preserve">
+    <value>讀取(&amp;L)</value>
+  </data>
+  <data name="zh_tw__Job_Form_Button_Submit" xml:space="preserve">
+    <value>送出(&amp;S)</value>
+  </data>
+  <data name="zh_tw__Job_Form_CheckBox_Update_Only" xml:space="preserve">
+    <value>只有更新檔案</value>
+  </data>
+  <data name="zh_tw__Job_Form_GroupBox_AB_Properties" xml:space="preserve">
+    <value>Alienbrain 屬性</value>
+  </data>
+  <data name="zh_tw__Job_Form_GroupBox_Job_Properties" xml:space="preserve">
+    <value>基本屬性</value>
+  </data>
+  <data name="zh_tw__Job_Form_Job_Form" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_AB_Name" xml:space="preserve">
+    <value>專案名稱 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Command" xml:space="preserve">
+    <value>命令 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_End" xml:space="preserve">
+    <value>結束 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_First_Pool" xml:space="preserve">
+    <value>群組1 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Job_Name" xml:space="preserve">
+    <value>工作名稱 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Job_Project" xml:space="preserve">
+    <value>工作專案 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Note" xml:space="preserve">
+    <value>註解 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Packet_Size" xml:space="preserve">
+    <value>封包大小 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_AB_Path" xml:space="preserve">
+    <value>節點路徑 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Priority" xml:space="preserve">
+    <value>優先權 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Second_Pool" xml:space="preserve">
+    <value>群組2 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Start" xml:space="preserve">
+    <value>起始 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Submit_Type" xml:space="preserve">
+    <value>送出方式：</value>
+  </data>
+  <data name="zh_tw__Job_Form_Label_Wait_For" xml:space="preserve">
+    <value>等候 :</value>
+  </data>
+  <data name="zh_tw__Job_Form_LinkLabel_Display_Hide" xml:space="preserve">
+    <value>隱藏 Alienbrain 屬性</value>
+  </data>
+  <data name="zh_tw__Job_Form_LinkLabel_Display_Show" xml:space="preserve">
+    <value>顯示 Alienbrain 屬性</value>
+  </data>
+  <data name="zh_tw___ParseFile_Multi_Err" xml:space="preserve">
+    <value>無法讀取多個工作的檔案，請於文字命令列上載入。</value>
+  </data>
+  <data name="zh_tw__Job_Form_RadioButton_Client" xml:space="preserve">
+    <value>一個機器端為單位</value>
+  </data>
+  <data name="zh_tw__Job_Form_RadioButton_Processor" xml:space="preserve">
+    <value>一個處理器為單位</value>
+  </data>
+  <data name="zh_tw__Job_Form_Submit_Err" xml:space="preserve">
+    <value>無法下算此工作(Job), 請聯繫 IT 部門 !</value>
+  </data>
+  <data name="zh_tw__Main_Form_AddRemove_Machine_Err" xml:space="preserve">
+    <value>無法加入或移除 {0} 機器</value>
+  </data>
+  <data name="zh_tw__Main_Form_Click_ListView_Err" xml:space="preserve">
+    <value>您還沒有選擇項目 !</value>
+  </data>
+  <data name="zh_tw__Main_Form_Delete_ListView_Queue" xml:space="preserve">
+    <value>確認刪除 ?</value>
+  </data>
+  <data name="zh_tw__Main_Form_GroupBox_Host" xml:space="preserve">
+    <value>主機清單</value>
+  </data>
+  <data name="zh_tw__Main_Form_GroupBox_Process" xml:space="preserve">
+    <value>處理中</value>
+  </data>
+  <data name="zh_tw__Main_Form_GroupBox_Queue" xml:space="preserve">
+    <value>佇列中</value>
+  </data>
+  <data name="zh_tw__Main_Form_Host_Add_Machine" xml:space="preserve">
+    <value>加入至 Render Farm</value>
+  </data>
+  <data name="zh_tw__Main_Form_Host_Remove_Machine" xml:space="preserve">
+    <value>從 Render Farm 移除</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Host_Host" xml:space="preserve">
+    <value>主機名稱</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Host_Id" xml:space="preserve">
+    <value>主機識別碼</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Host_Processors" xml:space="preserve">
+    <value>處理器使用量</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Host_Status" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Process_Elpased" xml:space="preserve">
+    <value>經過時間</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Process_Frames" xml:space="preserve">
+    <value>張數</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Process_Host" xml:space="preserve">
+    <value>主機名稱</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Process_Id" xml:space="preserve">
+    <value>處理識別碼</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Process_Job" xml:space="preserve">
+    <value>工作名稱</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_First_Pool" xml:space="preserve">
+    <value>群組1</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Frames" xml:space="preserve">
+    <value>張數</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Id" xml:space="preserve">
+    <value>佇列識別碼</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Job" xml:space="preserve">
+    <value>工作名稱</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Note" xml:space="preserve">
+    <value>備註</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Priority" xml:space="preserve">
+    <value>優先權</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Progress" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Second_Pool" xml:space="preserve">
+    <value>群組2</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Status" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Submited_Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Submited_User" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="zh_tw__Main_Form_Main_Form_Closing_String" xml:space="preserve">
+    <value>離開 ?</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_About" xml:space="preserve">
+    <value>關於(&amp;A)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Queue" xml:space="preserve">
+    <value>佇列(&amp;Q)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Queue_Exit" xml:space="preserve">
+    <value>結束(&amp;X)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Queue_Job" xml:space="preserve">
+    <value>工作(&amp;J)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Queue_Job_History" xml:space="preserve">
+    <value>歷程記錄(&amp;H)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Queue_Job_Load" xml:space="preserve">
+    <value>讀取(&amp;L)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Queue_Job_New" xml:space="preserve">
+    <value>新增(&amp;N)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings" xml:space="preserve">
+    <value>設定(&amp;S)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_ChangeUser" xml:space="preserve">
+    <value>切換使用者(&amp;C)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_Lang" xml:space="preserve">
+    <value>語言(&amp;L)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_Lang_Cht" xml:space="preserve">
+    <value>繁體中文</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_Lang_Eng" xml:space="preserve">
+    <value>英文(美國)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_Minimize" xml:space="preserve">
+    <value>最小化後隱藏(&amp;H)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_Network" xml:space="preserve">
+    <value>伺服器設定(&amp;N)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_PoolMgr" xml:space="preserve">
+    <value>群組管理員(&amp;P)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Menu_Settings_Record_Option" xml:space="preserve">
+    <value>儲存環境設定(&amp;S)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Notify_Text_String" xml:space="preserve">
+    <value>請按這裡檢視目前的執行狀態</value>
+  </data>
+  <data name="zh_tw__Main_Form_Notify_Title_String" xml:space="preserve">
+    <value>Renbar 正在背景執行中 ..</value>
+  </data>
+  <data name="zh_tw__Main_Form_Proc_View_Output" xml:space="preserve">
+    <value>檢視輸出</value>
+  </data>
+  <data name="zh_tw__Main_Form_Queue_Delete_Job" xml:space="preserve">
+    <value>刪除工作</value>
+  </data>
+  <data name="zh_tw__Main_Form_Queue_Update_Job" xml:space="preserve">
+    <value>更新工作</value>
+  </data>
+  <data name="zh_tw__Main_Form_Status_Label_User" xml:space="preserve">
+    <value>使用者 :</value>
+  </data>
+  <data name="zh_tw__Main_Form_View_Console_Form_Err" xml:space="preserve">
+    <value>無法檢視目前的輸出 !</value>
+  </data>
+  <data name="zh_tw__Net_Form_Button_AU" xml:space="preserve">
+    <value>新增/更新</value>
+  </data>
+  <data name="zh_tw__Net_Form_Button_Save" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="zh_tw__Net_Form_Label_Connect" xml:space="preserve">
+    <value>連接中 ..</value>
+  </data>
+  <data name="zh_tw__Net_Form_Label_Port" xml:space="preserve">
+    <value>連接埠 :</value>
+  </data>
+  <data name="zh_tw__Net_Form_Label_Port_Help" xml:space="preserve">
+    <value>網路服務連接埠</value>
+  </data>
+  <data name="zh_tw__Net_Form_Label_Server" xml:space="preserve">
+    <value>伺服器 :</value>
+  </data>
+  <data name="zh_tw__Net_Form_Label_Server_Help" xml:space="preserve">
+    <value>伺服器主機名稱或網際網路位址-(ex: hostserver, 123.234.10.1)</value>
+  </data>
+  <data name="zh_tw__Net_Form_Net_Form" xml:space="preserve">
+    <value>Renbar 伺服器</value>
+  </data>
+  <data name="zh_tw__Net_Form_comboBox_Server_Error1_String" xml:space="preserve">
+    <value>無法連接遠端伺服器 !</value>
+  </data>
+  <data name="zh_tw__Net_Form_comboBox_Server_String" xml:space="preserve">
+    <value>連接成功 !</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Add_Member" xml:space="preserve">
+    <value>加入成員</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Add_Pool" xml:space="preserve">
+    <value>新增群組(&amp;A)</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Delete_Pool" xml:space="preserve">
+    <value>刪除群組(&amp;D)</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Delete_Pool_Confirm" xml:space="preserve">
+    <value>警告 ! 此群組中的所有成員將會遺失-刪除此群組 ?</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Del_Member" xml:space="preserve">
+    <value>移除成員</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Update_Pool" xml:space="preserve">
+    <value>更新群組(&amp;U)</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_CheckBox_Sharable" xml:space="preserve">
+    <value>可共用</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_ComboBox_Pool_Name_Repate_Err" xml:space="preserve">
+    <value>這個群組已經存在於資料庫，無法新增 !</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_GroupBox_Pool_Controls" xml:space="preserve">
+    <value>群組控制項</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_GroupBox_Pool_Groups" xml:space="preserve">
+    <value>群組管理</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_GroupBox_Relation" xml:space="preserve">
+    <value>群組關聯性</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Label_Machine_List" xml:space="preserve">
+    <value>主機清單 :</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Label_Member_List" xml:space="preserve">
+    <value>成員清單 :</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Label_Pool_Name" xml:space="preserve">
+    <value>群組名稱 :</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_PoolMgr_Form" xml:space="preserve">
+    <value>群組管理員</value>
+  </data>
+  <data name="zh_tw__SubmitFile_Path_Err" xml:space="preserve">
+    <value>命令欄位有一個或多個錯誤 !</value>
+  </data>
+  <data name="en_us__ChangeUser_Form_Fail_String" xml:space="preserve">
+    <value>Validation user fail！</value>
+  </data>
+  <data name="zh_tw__ChangeUser_Form_Fail_String" xml:space="preserve">
+    <value>驗證使用者失敗！</value>
+  </data>
+  <data name="en_us___Parse_FileFormat_Err" xml:space="preserve">
+    <value>Can't parse the file format！</value>
+  </data>
+  <data name="zh_tw___Parse_FileFormat_Err" xml:space="preserve">
+    <value>無法剖析選擇的檔案格式！</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Host_Connected" xml:space="preserve">
+    <value>Connected Time</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Host_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Host_Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Host_Connected" xml:space="preserve">
+    <value>連線時間</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Host_Note" xml:space="preserve">
+    <value>註解</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Host_Priority" xml:space="preserve">
+    <value>優先權</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_Project" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_Project" xml:space="preserve">
+    <value>專案名稱</value>
+  </data>
+  <data name="connect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\connect.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="en_us__Net_Form_comboBox_Server_Error2_String" xml:space="preserve">
+    <value>Can't parse network address.</value>
+  </data>
+  <data name="zh_tw__Net_Form_comboBox_Server_Error2_String" xml:space="preserve">
+    <value>無法剖析網路位址 !</value>
+  </data>
+  <data name="en_us__Main_Form_ListView_Queue_ProcessType" xml:space="preserve">
+    <value>Process Type</value>
+  </data>
+  <data name="zh_tw__Main_Form_ListView_Queue_ProcessType" xml:space="preserve">
+    <value>處理方式</value>
+  </data>
+  <data name="en_us__Priority_Form_Button_Ok" xml:space="preserve">
+    <value>&amp;Ok</value>
+  </data>
+  <data name="en_us__Priority_Form_Priority_Form" xml:space="preserve">
+    <value>Priority Settings</value>
+  </data>
+  <data name="zh_tw__Priority_Form_Button_Ok" xml:space="preserve">
+    <value>確定(&amp;O)</value>
+  </data>
+  <data name="zh_tw__Priority_Form_Priority_Form" xml:space="preserve">
+    <value>優先權設定</value>
+  </data>
+  <data name="en_us__Main_Form_Host_Setting_Priority" xml:space="preserve">
+    <value>Set Render Machine Priority</value>
+  </data>
+  <data name="zh_tw__Main_Form_Host_Setting_Priority" xml:space="preserve">
+    <value>設定 Render 主機優先權</value>
+  </data>
+  <data name="en_us__Priority_Form_Fail_Msg" xml:space="preserve">
+    <value>Can't save the priority !</value>
+  </data>
+  <data name="zh_tw__Priority_Form_Fail_Msg" xml:space="preserve">
+    <value>無法儲存優先權設定 !</value>
+  </data>
+  <data name="en_us__Priority_Form_Label_Priority_Value" xml:space="preserve">
+    <value>Priority :</value>
+  </data>
+  <data name="zh_tw__Priority_Form_Label_Priority_Value" xml:space="preserve">
+    <value>優先權 :</value>
+  </data>
+  <data name="en_us__Main_Form_Delete_Job_Err" xml:space="preserve">
+    <value>Can't delete selected jobs !</value>
+  </data>
+  <data name="zh_tw__Main_Form_Delete_Job_Err" xml:space="preserve">
+    <value>無法刪除選取的工作 !</value>
+  </data>
+  <data name="en_us__Main_Form_DueDate_Msg" xml:space="preserve">
+    <value>This version has expired !</value>
+  </data>
+  <data name="zh_tw__Main_Form_DueDate_Msg" xml:space="preserve">
+    <value>這個版本已過期 !</value>
+  </data>
+  <data name="en_us__Main_Form_Host_Add_Machine_Err" xml:space="preserve">
+    <value>These machines can not be correctly enabled !</value>
+  </data>
+  <data name="en_us__Main_Form_Host_Remove_Machine_Err" xml:space="preserve">
+    <value>These machines can not be correctly disabled !</value>
+  </data>
+  <data name="zh_tw__Main_Form_Host_Add_Machine_Err" xml:space="preserve">
+    <value>這些機器無法正確地啟用 !</value>
+  </data>
+  <data name="zh_tw__Main_Form_Host_Remove_Machine_Err" xml:space="preserve">
+    <value>這些機器無法正確地停用 !</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notifyskin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notifyskin.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notification" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notification.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="en_us__Main_Form_Notification" xml:space="preserve">
+    <value>Renbar Message Notify</value>
+  </data>
+  <data name="en_us__Main_Form_Notification_Completed" xml:space="preserve">
+    <value>Action completed ! Job queue has changed！</value>
+  </data>
+  <data name="en_us__Main_Form_Notification_Error" xml:space="preserve">
+    <value>You submited job occur error, please click here to view status</value>
+  </data>
+  <data name="zh_tw__Main_Form_Notification" xml:space="preserve">
+    <value>Renbar 訊息通知</value>
+  </data>
+  <data name="zh_tw__Main_Form_Notification_Completed" xml:space="preserve">
+    <value>操作已完成，工作隊列發生變化</value>
+  </data>
+  <data name="zh_tw__Main_Form_Notification_Error" xml:space="preserve">
+    <value>您送出的工作發生錯誤，請按這裡檢視狀態</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Add_Pool_Fail" xml:space="preserve">
+    <value>Can't add pool, please contact IT dept.</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_AddChange_Member_Fail" xml:space="preserve">
+    <value>Can't add or update pool member, please contact IT dept.</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Delete_Pool_Complete" xml:space="preserve">
+    <value>Delete pool complete !</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Delete_Pool_Fail" xml:space="preserve">
+    <value>Can't delete pool, please contact IT dept.</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Update_Pool_Complete" xml:space="preserve">
+    <value>Update pool complete !</value>
+  </data>
+  <data name="en_us__PoolMgr_Form_Button_Update_Pool_Fail" xml:space="preserve">
+    <value>Can't update pool, please contact IT dept.</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_AddChange_Member_Fail" xml:space="preserve">
+    <value>無法新增或更新群組成員，請洽詢IT部門。</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Add_Pool_Complete" xml:space="preserve">
+    <value>完成新增群組 !</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Add_Pool_Fail" xml:space="preserve">
+    <value>無法新增群組，請洽詢IT部門。</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Delete_Pool_Complete" xml:space="preserve">
+    <value>完成刪除群組 !</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Delete_Pool_Fail" xml:space="preserve">
+    <value>無法刪除群組，請洽詢IT部門。</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Update_Pool_Complete" xml:space="preserve">
+    <value>完成群組更新 !</value>
+  </data>
+  <data name="zh_tw__PoolMgr_Form_Button_Update_Pool_Fail" xml:space="preserve">
+    <value>無法更新群組，請洽詢IT部門。</value>
+  </data>
+  <data name="en_us__Job_Form_Requirement_Err" xml:space="preserve">
+    <value>Required field can't be blank !</value>
+  </data>
+  <data name="zh_tw__Job_Form_Requirement_Err" xml:space="preserve">
+    <value>必要欄位不可空白 !</value>
+  </data>
+  <data name="en_us__Job_Form_Backup_Warning" xml:space="preserve">
+    <value>Warning ! Can't backup the contents of document.</value>
+  </data>
+  <data name="zh_tw__Job_Form_Backup_Warning" xml:space="preserve">
+    <value>警告 ! 無法備份目前的內容。</value>
+  </data>
+  <data name="en_us__Job_Form_Init_Err" xml:space="preserve">
+    <value>Getting the pool infor ,please try it later!</value>
+  </data>
+  <data name="zh_tw__Job_Form_Init_Err" xml:space="preserve">
+    <value>正在獲取pool信息，請稍候再試！</value>
+  </data>
+  <data name="en_us__HistoryForm_Button_Refresh" xml:space="preserve">
+    <value>&amp;Refresh</value>
+  </data>
+  <data name="en_us__HistoryForm_label_MaxRecords" xml:space="preserve">
+    <value>Record Num:</value>
+  </data>
+  <data name="en_us__HistoryForm_ListView_History_Frames" xml:space="preserve">
+    <value>Frames</value>
+  </data>
+  <data name="en_us__HistoryForm_ListView_History_Job_Group_Id" xml:space="preserve">
+    <value>Job GroupID</value>
+  </data>
+  <data name="en_us__HistoryForm_ListView_History_Name" xml:space="preserve">
+    <value>Job Name</value>
+  </data>
+  <data name="en_us__Job_Form_Button_Update" xml:space="preserve">
+    <value>&amp;Update</value>
+  </data>
+  <data name="en_us__Main_Form_Queue_Repeat_Job" xml:space="preserve">
+    <value>Repeat Job</value>
+  </data>
+  <data name="en_us__Main_Form_Queue_SetPriority_Job" xml:space="preserve">
+    <value>Set Priority</value>
+  </data>
+  <data name="en_us__Net_Form_Button_Delete" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="zh_tw__HistoryForm_Button_Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="zh_tw__HistoryForm_label_MaxRecords" xml:space="preserve">
+    <value>記錄數：</value>
+  </data>
+  <data name="zh_tw__HistoryForm_ListView_History_Frames" xml:space="preserve">
+    <value>張數</value>
+  </data>
+  <data name="zh_tw__HistoryForm_ListView_History_Job_Group_Id" xml:space="preserve">
+    <value>歷程記錄識別碼</value>
+  </data>
+  <data name="zh_tw__HistoryForm_ListView_History_Name" xml:space="preserve">
+    <value>工作名稱</value>
+  </data>
+  <data name="zh_tw__Job_Form_Button_Update" xml:space="preserve">
+    <value>更新(&amp;U)</value>
+  </data>
+  <data name="zh_tw__Main_Form_Queue_Repeat_Job" xml:space="preserve">
+    <value>重復工作</value>
+  </data>
+  <data name="zh_tw__Main_Form_Queue_SetPriority_Job" xml:space="preserve">
+    <value>設定優先級</value>
+  </data>
+  <data name="zh_tw__Net_Form_Button_Delete" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="en_us__Main_Form_ServerConnectedMes" xml:space="preserve">
+    <value>Server State: Connected！</value>
+  </data>
+  <data name="en_us__Main_Form_ServerConnectingMes" xml:space="preserve">
+    <value>Server State: Connecting ..</value>
+  </data>
+  <data name="en_us__Main_Form_ServerDisConnectedMes" xml:space="preserve">
+    <value>Server State: Can't Connect！</value>
+  </data>
+  <data name="zh_tw__Main_Form_ServerConnectedMes" xml:space="preserve">
+    <value>伺服器狀態: 已連接！</value>
+  </data>
+  <data name="zh_tw__Main_Form_ServerConnectingMes" xml:space="preserve">
+    <value>伺服器狀態: 連接中……</value>
+  </data>
+  <data name="zh_tw__Main_Form_ServerDisConnectedMes" xml:space="preserve">
+    <value>伺服器狀態: 無法連接！</value>
+  </data>
+  <data name="en_us__HistoryForm_Data_Deleted_Err" xml:space="preserve">
+    <value>The job had been deleted!</value>
+  </data>
+  <data name="zh_tw__HistoryForm_Data_Deleted_Err" xml:space="preserve">
+    <value>該工作已被刪除！</value>
+  </data>
+</root>

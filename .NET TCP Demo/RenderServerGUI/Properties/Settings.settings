@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RenderServerGUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectServerPort" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">6600</Value>
+    </Setting>
+    <Setting Name="ListenRenderPort" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">6700</Value>
+    </Setting>
+    <Setting Name="ConnectServerIp" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.2.226</Value>
+    </Setting>
+    <Setting Name="Path" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ServerAddress.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

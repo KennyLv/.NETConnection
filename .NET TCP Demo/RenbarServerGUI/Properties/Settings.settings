@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RenbarServerGUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=192.168.2.228;database=BT_Test;user id=root;password=Foxconn99;</Value>
+    </Setting>
+    <Setting Name="ListenClientPort" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">6600</Value>
+    </Setting>
+    <Setting Name="ListenRenderPort" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">6700</Value>
+    </Setting>
+    <Setting Name="ServerSyncPort" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">6601</Value>
+    </Setting>
+    <Setting Name="AlienbrainUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">isadmin</Value>
+    </Setting>
+    <Setting Name="AlienbrainPwd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1qazxsw2</Value>
+    </Setting>
+    <Setting Name="AlienbrainSvr" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BI-TESTSRV02</Value>
+    </Setting>
+    <Setting Name="AlienbrainWorkingPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\ab_localcopy_r</Value>
+    </Setting>
+    <Setting Name="JobHistoryMaxRecord" Type="System.UInt16" Scope="Application">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="MasterServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.2.230</Value>
+    </Setting>
+    <Setting Name="SlaveServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.1.139</Value>
+    </Setting>
+    <Setting Name="JobMaxTime" Type="System.UInt64" Scope="Application">
+      <Value Profile="(Default)">1800000</Value>
+    </Setting>
+    <Setting Name="MachineMaxTime" Type="System.UInt64" Scope="Application">
+      <Value Profile="(Default)">604800000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
