@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../jscript.dom.js"></script>
+<title>多行文本框测试</title>
+</head>
+
+<body>
+<textarea rows="5"  id="test" ></textarea>
+<br />
+<input type="text" id="num" />
+<input type="button" onclick="remove( js.dom.$('num').value )"  value="移除"/><br />
+<div align="center" style=" width:600px; height:600px; background:url(../images/bg.png);"></div>
+<script type="text/javascript">
+js.dom.$('test').value = "1\n2\n3\n4\n5" ;
+//alert( js.dom.$('test').value );
+function remove( text  )
+{
+   var str = '';
+   var data = js.dom.$('test').value ;
+   var arr = data.split("\n");
+   for( var i=0 ; i<arr.length ; i++ )
+   {
+     if( arr[i]!=text )
+	 {
+	     str += arr[i] + "\n" ;
+	 }
+   }
+   js.dom.$('test').value = str ;
+}
+
+</script>
+</body>
+</html>

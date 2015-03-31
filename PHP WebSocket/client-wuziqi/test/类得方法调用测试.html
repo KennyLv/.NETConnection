@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<script type="text/javascript">
+function test()
+{
+   var that = this ;
+   var fun1 = function(msg)
+   {
+      alert( msg );
+   }
+   this.pub1 = function(msg)
+   {
+     fun1(msg) ;
+   }
+   var fun2 = function( msg )
+   {
+      that.pub1( msg );
+   }
+   this.pub2 = function( msg )
+   {
+      this.pub1( msg );  
+   }
+   this.pub3 = function ( msg )
+   {
+     fun2(msg);
+   }
+}
+var g_test = new test();
+//g_test.pub1( '公用方法可以调用私有方法' );
+//g_test.pub2( '公用方法可以调用公用方法' );
+g_test.pub3( '私有函数能间接调用公用方法' );
+</script>
+</body>
+</html>
