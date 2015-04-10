@@ -1,51 +1,48 @@
-﻿<!doctype html>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>websocket and node.js</title>
-		<meta charset="utf-8" />
-		<script src="jquery.js"></script>
-		<script src="../svr/zTool.js"></script>
-		<script src="../svr/chatLib.js"></script>
-		<script src="DateUtil.js"></script>
-		<script src="socket.io.js"></script>
-		<script src="clientSocketHandler.js"></script>
-		<script src="chat.js"></script>
-		<link src="chatroom.css"/>
-	</head>
-	<body>
-	
-		<div id='errorPage' class='page' style='display:none;'>
-			<h1>
-				当前浏览器不支持WebSocket，请使用其他浏览器，例如chrome 4.0.249.0 +
-			</h1>
+        <head>
+                <title>websocket and node.js</title>
+                <meta charset="utf-8" />
+                <script type="text/javascript" src="jquery.js"></script>
+                <script type="text/javascript" src="../svr/zTool.js"></script>
+                <script type="text/javascript" src="../svr/chatLib.js"></script>
+                <script type="text/javascript" src="DateUtil.js"></script>
+                <script type="text/javascript" src="socket.io.js"></script>
+                <script type="text/javascript" src="clientSocketHandler.js"></script>
+                <script type="text/javascript" src="controller/chat.js"></script>
+                <script type="text/javascript" src="view/chat.js"></script>
+		<link href="chatroom.css" rel="stylesheet" type="text/css"/>
+        </head>
+        <body>
+                <div class='page' style='height:60px;'>
+                        <div id='errorPage' style='display:none;color: red;'>
+                                <h1>当前浏览器不支持WebSocket，请使用其他浏览器，例如chrome 4.0.249.0 +</h1>
+                        </div>
+                </div>
+		
+                <div id='loginPage' class='page' style='width:690px;text-align:center;'>
+			<input id='nickInput' type='text' placeholder="请输入您的昵称" />
+			<input id='open' type='button' value='进入聊天室' />
 		</div>
-		
-		<div id='prePage' class='page' style='width:690px;text-align:center;'>
-			<input id='nickInput' type='text' placeholder="请输入您的昵称"  />&nbsp;
-			<input id='open' type='button' value='进入聊天室'  />
-		</div>
-		
-		<div id='mainPage' class='page' style='display:none;'>
-			<div style='overflow:hidden;'>
-				<div class='talkLeft'>
-					<div id='talkFrame'></div>
-					<div id='inputDiv'>
-						<textarea placeholder="嗨，随便说点啥呗" id="message"></textarea>
-					</div>
-					<div style='overflow:hidden;'>
-						<input class='f-right' type='button' value='发送' id="send" />
-					</div>
-				</div>
-				<div class='talkRight'>
-					<div id='onlineUsers'></div>
-				</div>
-			</div>
-			<div style='text-align:center;'>
-				<input type='button' value='退出' id="logout" />
-			</div>
-		</div>
-		
-		
-		
-	</body>
+                <div id='chatPage' class='page' style='display:none;'>
+                        <div style='overflow:hidden;'>
+                                <div class='talkLeft'>
+                                        <div id='talkFrame'></div>
+                                        <div id='inputDiv'>
+                                                <textarea placeholder="嗨，随便说点啥呗" id="message"></textarea>
+                                        </div>
+                                        <div style='overflow:hidden;'>
+                                                <input class='f-right' type='button' value='发送' id="send" />
+                                        </div>
+                                </div>
+                                <div class='talkRight'>
+                                        <div id='onlineUsers'></div>
+                                </div>
+                        </div>
+                        <div style='text-align:center;'>
+                                <input type='button' value='退出' id="logout" />
+                        </div>
+                </div>
+        </body>
 </html>
+<!-- <meta name="generator"  content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" /> -->

@@ -1,45 +1,40 @@
 (function(exports){
 
 	// 事件类型
-	exports.EVENT_TYPE = {
-	    'LOGIN': 'LOGIN',
-	    'LOGOUT': 'LOGOUT',
-	    'LIST_USER': 'LIST_USER',
-	    'CREATE_ROOM': 'CREATE_ROOM',
-	    'JOIN_ROOM': 'JOIN_ROOM',
-	    'SPEAK': 'SPEAK',
-	    'LIST_HISTORY': 'LIST_HISTORY',
-	    'LEAVE_ROOM': 'LEAVE_ROOM',
-	    'ERROR': 'ERROR'
-	};
-	
-	exports.CLIENT_EVENT_TYPE = {
-	    'LOGIN': 'LOGIN',
-	    'LOGOUT': 'LOGOUT',
-	    'CREATE_ROOM': 'CREATE_ROOM',
-	    'JOIN_ROOM': 'JOIN_ROOM',
-	    'SPEAK': 'SPEAK',
-	    'LIST_HISTORY' : 'LIST_HISTORY',
-	    'LEAVE_ROOM': 'LEAVE_ROOM'
-	};
-	
-	exports.SERVER_NOTIFICATION_TYPE = {
-	    'USER_LOGIN': 'USER_LOGIN',
-	    'USER_LOGOUT': 'USER_LOGOUT',
-	    'LIST_USER': 'LIST_USER',
-	    'USER_CREATE_ROOM': 'USER_CREATE_ROOM',
-	    'USER_JOIN_ROOM': 'USER_JOIN_ROOM',
-	    'USER_MESSAGE': 'USER_MESSAGE',
-	    'HISTORY': 'HISTORY',
-	    'USER_LEAVE_ROOM': 'USER_LEAVE_ROOM',
-	    'SERVER_ERROR': 'SERVER_ERROR'
-	};
+	exports.USER_EVENT = {
+		'COMMON_EVENT' : {
+		    'LOGIN': 'LOGIN',
+		    'LOGOUT': 'LOGOUT',
+		    'CREATE_ROOM': 'CREATE_ROOM',
+		    'ENTER_ROOM': 'ENTER_ROOM',
+		    'LEAVE_ROOM': 'LEAVE_ROOM',
+		    'PUBLIC_SPEAK': 'PUBLIC_SPEAK',
+		    'VIEW_HISTORY': 'VIEW_HISTORY',
+		    'UN_PARSEABLE_MESSAGE': 'UN_PARSEABLE_MESSAGE'
+		},
+		'PRIVATE_CHAT' : {
+		    'INVITE': 'INVITE',
+		    'BEEN_INVITED': 'BEEN_INVITED',
+		    'ACCEPT': 'ACCEPT',
+		    'ON_ACCEPTED': 'ON_ACCEPTED',
+		    'REFUSE': 'REFUSE',
+		    'ON_REFUSED': 'ON_REFUSED',
+		    'CHAT_MESSAGE': 'CHAT_MESSAGE' //Suport Image
+		},
+		'MULTI_PERSON_GAME' : {
+		    'AVAILABLE_ROOMS': 'AVAILABLE_ROOMS',
+		    'ON_GOING_MESSAGE': {
+				'START':'START',
+				'IN_TURN':'IN_TURN',
+				'END':'END'
+		    }
+		}
+	}
 
 	// 服务端口
 	exports.PORT = 8025;
-
 	// 服务端口
-	exports.HOST = "localhost";
+	exports.HOST = "10.20.71.62"; //"localhost";
 
 	var analyzeMessageData = exports.analyzeMessageData = function(message) {
 		try {
@@ -48,7 +43,6 @@
 			// 收到了非正常格式的数据
 			console.log('method:analyzeMsgData,error:' + error);
 		}
-
 		return null;
 	}
 

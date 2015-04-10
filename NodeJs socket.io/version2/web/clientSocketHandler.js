@@ -1,29 +1,29 @@
 
-function clientSocketInstance(){
+function clientSocketInstance() {
 
 	var _socket = null;
 
-	this.terminateSession = function() {
+	this.terminateSession = function () {
 		this._socket.close();
 		this._socket = null;
 	};
 
-	this.sendMsg = function(event,value) {
+	this.sendMsg = function (event, value) {
 		var data = JSON.stringify({
-			'EVENT' : event,
-			'values' : [value]
-		});
-		this._socket.emit('message',data);
+				'EVENT' : event,
+				'values' : [value]
+			});
+		this._socket.emit('message', data);
 	};
-	
-	this.startSession = function(serverAddress, options){
-		this._socket = io.connect( serverAddress );//'http://localhost:8025'
-		
+
+	this.startSession = function (serverAddress, options) {
+		this._socket = io.connect(serverAddress); //'http://localhost:8025'
+
 		this._socket.on('connect', function () {
 			options.onSocketConnected();
 		});
 
-		this._socket.on("message",function(message){
+		this._socket.on("message", function (message) {
 			var mData = null;
 			try {
 				var mData = JSON.parse(message);
@@ -37,13 +37,13 @@ function clientSocketInstance(){
 			}
 		});
 
-		this._socket.on("error",function(){
+		this._socket.on("error", function () {
 			// 网络连接异常
 			console.log('Socket Error:' + error);
 			options.onSocketError();
 		});
-		
-		this._socket.on("close",function(){
+
+		this._socket.on("close", function () {
 			options.onSocketClosed();
 		});
 
