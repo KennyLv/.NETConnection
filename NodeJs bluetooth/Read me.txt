@@ -1,0 +1,5 @@
+With module serialport, you need another module to connect with the bluetooth device, or you need to manually connect with rfcomm in terminal. The big difference in functionality is that bluetooth-serial-port doesn't require you to connect with rfcomm. This module can scan bluetooth devices and connect with them. After you connect, it has the same functionality as serialport.
+
+So if your application/module only needs to connect with bluetooth devices and you want scanning functionality, it's worth to at least try bluetooth-serial-port.
+
+There are a few examples in the npm module/readme, so it won't take much time to just test it.
