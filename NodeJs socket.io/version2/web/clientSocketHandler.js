@@ -2,6 +2,7 @@
 function clientSocketInstance() {
 
 	var _socket = null;
+	var _socketChatChannel = null;
 
 	this.terminateSession = function () {
 		this._socket.close();
@@ -18,12 +19,16 @@ function clientSocketInstance() {
 
 	this.startSession = function (serverAddress, options) {
 		this._socket = io.connect(serverAddress); //'http://localhost:8025'
+		this._socketChatChannel = io.connect(serverAddress + '/chat');
 
 		this._socket.on('connect', function () {
-			options.onSocketConnected();
+			//options.onSocketConnected();
+			console.log("in chat connect .....");
 		});
 
 		this._socket.on("message", function (message) {
+		console.log(message);
+		alert(message);
 			var mData = null;
 			try {
 				var mData = JSON.parse(message);

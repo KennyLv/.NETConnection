@@ -9,8 +9,23 @@ var PORT = chatLib.PORT;
 //TODO : 分端口，游戏跟私聊使用不同的端口
 //使用socket.io直接启动http服务
 var io = require("socket.io").listen(PORT);
+var chat = io.of('/chat');
+var news = io.of('/news');
+var game = io.of('/game');
+
+chat.on('connection', function (socket) {
+	socket.emit('message', {'/chat': 'will get in socket'});	//chat.emit('message', {'/chat': 'will get in chat'});
+});
+news.on('connection', function (socket) {
+	socket.emit('item', { news: 'item' });//news.emit('item', { news: 'item' });
+});
+game.on('connection', function (socket) {
+	socket.emit('game', { game: 'game' });//game.emit('item', { game: 'item' });
+});
 
 io.sockets.on("connection",function(socket){
+		//console.log(socket);
+		
 		socket.on("message",function(message){
 				var mData = chatLib.analyzeMessageData(message);
 				if (mData && mData.EVENT) {
@@ -19,6 +34,16 @@ io.sockets.on("connection",function(socket){
 								var newUser = {'uid':socket.id, 'nick':chatLib.getMsgFirstDataValue(mData)};
 								// 把新连接的用户增加到在线用户列表
 								onlineUserMap.put(socket.id, newUser);
+								/*
+								//可以在服务端使用socket的get/set方法存储客服端的相关数据，
+								socket.set('nickname', name, function () {
+									socket.emit('ready');
+								});
+								socket.get('nickname', function (err, name) {
+									console.log('Chat message by ', name); 
+								});
+								*/
+
 								// 把新用户的信息广播给在线用户
 								var data = JSON.stringify({
 										'EVENT' : EVENT_TYPE.COMMON_EVENT.LOGIN,
@@ -27,7 +52,8 @@ io.sockets.on("connection",function(socket){
 										'historyContent':historyContent.values()
 								});
 								io.sockets.emit('message',data);//广播
-								//socket.emit('message',data);// socket.broadcast.emit('message', data);//无效
+								//socket.emit('message',data);
+								// socket.broadcast.emit('message', data);//广播消息，比如聊天室中给除了当前socket连接外的所有人发消息。
 							break;
 							
 							case EVENT_TYPE.COMMON_EVENT.CREATE_ROOM: //用户创建房间
